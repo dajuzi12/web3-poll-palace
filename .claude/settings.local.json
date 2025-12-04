@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build:*)",
+      "Bash(npm install:*)",
+      "Bash(npx hardhat compile)",
+      "Bash(npx hardhat:*)",
+      "Bash(node deploy-direct.mjs)",
+      "Bash(export VERCEL_TOKEN=COqaNnHdqRYX0MUlIoscS6Ia)",
+      "Bash(vercel:*)",
+      "Bash(cat:*)",
+      "Bash(git add:*)",
+      "Bash(git config:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git checkout:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
